@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+      <link rel="shortcut icon" href="favicon.png" type="image/png"> 
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description"
+   content="With the blessings of our families, we cordially invite you and your family to the engagement ceremony of Naresh and Mounika. Your presence and blessings will make this occasion truly special.">
+      <meta name="author" content="Naresh Badhavath">
+      <meta name="email" content="naresh@gmail.com">
+      <meta name="copyright" content="Naresh Mounika 2026" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Engagement Invitation | 17th June | Dhumada Thanda,Uggampalle" />
+    <meta property="og:description"
+   content="With immense joy, we invite you to celebrate the engagement ceremony of Naresh and Mounika. Kindly grace the occasion with your presence and blessings." />
+   
+      <meta property="og:image" content="https://raw.githubusercontent.com/Naresh18388/Naresh-wedding-invitation/main/assets/img/naresh.jpeg" />
+      <meta property="og:url" content="" />
+      <meta property="og:site_name" content="Engagement Invitation | 17th June" />
+      <meta name="twitter:card" content="website">
+      <meta name="twitter:site" content="Engagement Invitation | 17th June">
+      <meta name="twitter:title" content="Engagement Invitation | 17th June">
+      <meta name="twitter:description"
+         content="With the blessings of our families, we cordially invite you and your family to the engagement ceremony of Naresh and Mounika. Your presence and blessings will make this occasion truly special.">
+      <meta name="twitter:creator" content="@Naresh">
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/Naresh18388/Naresh-wedding-invitation/main/assets/img/naresh.jpeg">
+      
+      <title>Engagement Invitation | June 17 | AT Dhumada Thanda,Uggampalle, Telangana</title>
+
+      <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dancing+Script&amp;display=swap'>
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <!-- partial:index.partial.html -->
+      <div class="sakura-falling"></div>
+      <img src="https://i.imgur.com/dGOOfnA.png" alt="image-top-right" class="top-right-decoration">
+      <img src="https://i.imgur.com/t6ffnbn.png" alt="image-top-left" class="top-left-decoration"> 
+      <section id="media"></section>
+      <div class="wrap">
+         <div class="title">
+            <h1>Naresh</h1> 
+           <div class="top-row">
+  <img src="./assets/img/ganesh2-removebg-preview.png" class="god-left" alt="vinayaka">
+
+  <h2 class="amp">&</h2>
+
+  <img src="./assets/img/venkateshwara-removebg-preview.png" class="god-right" alt="venkateshwara">
+</div>
+            <h1>Mounika</h1>
+            <h3>Are getting engaged</h3>
+             <p>
+               on <span class="date">17 June 2026 ,</span></29><br/> At <span class="place"> Dhumada Thanda</span> <br/> Uggampalle, Telangana 506325         
+            </p>
+         </div>
+      </div>
+<div class="countdown-title">Countdown to Our Engagement 💍</div>
+<div id="time"></div>
+      <p class="dance-med">
+         Followed by Lunch....
+      </p>
+      <div class="actions">
+        <a href="https://maps.app.goo.gl/tiuUrkbvtaFGjE51A" target="_blank">
+          <div class="venue">SEE THE VENUE</div>
+        </a>
+        <a href="./invitation/Wedding.pdf" download="Invitation | 17 June | Hope to see you there!">
+          <div class="venue">DOWNLOAD INVITATION CARD</div>
+        </a>
+      </div>
+      <p class="footer">
+         Can't wait to celebrate auspicious moment of our family with you! <br>
+         Just a ping away for any queries: +91 7036255568
+         <span></span>
+      </p>
+      
+      <div class="extra-gifs">
+  <img src="./assets/img/coupledanda.gif" alt="celebration">
+  <img src="./assets/img/homam.gif" alt="decor">
+</div>
+
+
+  <div class="music">
+  <audio id="my_audio" loop>
+    <source src="./assets/mp3/song.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+
+
+<script>
+  window.addEventListener("load", () => {
+    const audio = document.getElementById("my_audio");
+
+    const playAudio = () => {
+      audio.play().catch(() => {});
+      document.removeEventListener("mousemove", playAudio);
+      document.removeEventListener("touchstart", playAudio);
+      document.removeEventListener("click", playAudio);
+    };
+
+    // Desktop
+    document.addEventListener("mousemove", playAudio);
+
+    // Mobile (IMPORTANT)
+    document.addEventListener("touchstart", playAudio);
+
+    // Backup
+    document.addEventListener("click", playAudio);
+  });
+</script>
+
+
+<div id="heartPopup">
+  💜
+    <span class="click-text">Click Me..👈</span>
+</div>
+
+<script>
+  const heartPopup = document.getElementById("heartPopup");
+  const audio = document.getElementById("my_audio");
+
+  heartPopup.addEventListener("click", () => {
+
+  // Play music
+  audio.play().catch(() => {});
+
+  // 💜 HEART BLAST
+  for (let i = 0; i < 40; i++) {
+    const heart = document.createElement("div");
+    heart.className = "heart";
+
+    const emojis = ["💜","💖","💙","💗","💞"];
+    heart.innerText = emojis[Math.floor(Math.random() * emojis.length)];
+
+    const x = (Math.random() - 0.5) * 800 + "px";
+    const y = (Math.random() - 0.5) * 800 + "px";
+
+    heart.style.setProperty("--x", x);
+    heart.style.setProperty("--y", y);
+    heart.style.left = "50%";
+    heart.style.top = "50%";
+
+    document.body.appendChild(heart);
+    setTimeout(() => heart.remove(), 5000);
+  }
+
+// 🎆 REAL SKY FIREWORK BLAST
+// 🎆 STRONG FIREWORK BLAST
+for (let i = 0; i < 120; i++) {
+  const fire = document.createElement("div");
+  fire.className = "firework";
+
+  const angle = Math.random() * 2 * Math.PI;
+
+  // 🔥 increase spread
+  const radius = Math.random() * 500;
+
+  const x = Math.cos(angle) * radius + "px";
+  const y = Math.sin(angle) * radius + "px";
+
+  fire.style.setProperty("--x", x);
+  fire.style.setProperty("--y", y);
+
+  fire.style.left = "50%";
+  fire.style.top = "50%";
+
+  // 🔥 BRIGHT COLORS
+  const colors = ["#ff0000", "#ffff00", "#00ffff", "#ff00ff", "#ffffff"];
+  fire.style.background = colors[Math.floor(Math.random() * colors.length)];
+  fire.style.color = fire.style.background;
+
+  document.body.appendChild(fire);
+
+  setTimeout(() => fire.remove(), 1500);
+}
+
+// 💥 MULTIPLE BURSTS (like real sky crackers)
+setTimeout(() => {
+  for (let j = 0; j < 60; j++) {
+    const fire = document.createElement("div");
+    fire.className = "firework";
+
+    const angle = Math.random() * 2 * Math.PI;
+    const radius = Math.random() * 400;
+
+    fire.style.setProperty("--x", Math.cos(angle) * radius + "px");
+    fire.style.setProperty("--y", Math.sin(angle) * radius + "px");
+
+    fire.style.left = Math.random() * window.innerWidth + "px";
+    fire.style.top = Math.random() * window.innerHeight + "px";
+
+    const colors = ["#ff4e50","#f9d423","#00f2fe","#a18cd1","#ff9a9e"];
+    fire.style.background = colors[Math.floor(Math.random() * colors.length)];
+    fire.style.color = fire.style.background;
+
+    document.body.appendChild(fire);
+    setTimeout(() => fire.remove(), 4000);
+  }
+}, 400);
+
+  // Remove popup
+// animate and remove
+heartPopup.style.animation = "explodeOut 0.6s forwards";
+
+setTimeout(() => {
+  heartPopup.remove();
+}, 100);
+});
+
+// ✨ CONTINUOUS SPARKLE RAIN
+// ✨ CONTINUOUS SPARKLE RAIN (SLOW & VISIBLE)
+setInterval(() => {
+  const sparkle = document.createElement("div");
+  sparkle.className = "sparkle";
+
+  // random horizontal position
+  sparkle.style.left = Math.random() * window.innerWidth + "px";
+
+  // ✨ random size (important!)
+  const size = Math.random() * 6 + 4;
+  sparkle.style.width = size + "px";
+  sparkle.style.height = size + "px";
+
+  // ✨ random colors
+  const colors = ["#FFD700", "#FF69B4", "#FFFFFF", "#87CEFA"];
+  sparkle.style.background = colors[Math.floor(Math.random() * colors.length)];
+  sparkle.style.color = sparkle.style.background;
+
+  // ⏱️ slow fall duration (KEY FIX)
+  const duration = Math.random() * 3 + 4; // 4s → 7s
+  sparkle.style.animationDuration = duration + "s";
+
+  document.body.appendChild(sparkle);
+
+  setTimeout(() => sparkle.remove(), duration * 1000);
+
+}, 300); // slower creation (was 150)
+</script>
+
+
+
+
+<script>
+  const targetDate = new Date("June 17, 2026 00:00:00").getTime();
+
+  const timer = setInterval(() => {
+    const now = new Date().getTime();
+    const diff = targetDate - now;
+
+    if (diff <= 0) {
+      document.getElementById("time").innerHTML = "💍 It's Wedding Time!";
+      clearInterval(timer);
+      return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((diff / (1000 * 60)) % 60);
+    const seconds = Math.floor((diff / 1000) % 60);
+
+    document.getElementById("time").innerHTML = `
+      <div class="countdown">
+        <div><span>${days}</span><p class="timedesc">Days</p></div>
+        <div><span>${hours}</span><p class="timedesc">Hours</p></div>
+        <div><span>${minutes}</span><p class="timedesc">Minutes</p></div>
+        <div><span>${seconds}</span><p class="timedesc">Seconds</p></div>
+      </div>
+    `;
+  }, 1000);
+</script>
+
+
+      
+      <p class="happiness">Join us in our happiness!<br><a href="https://www.instagram.com/Naresh_Badhavath?igsh=MWIwbWVrZTNxamdrcw==" target="_blank" class="twitter"><i class="fa fa-instagram"></i></a></p>
+      <!-- partial -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+      <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
+      <script  src="./js/script.js"></script>
+         <div class="band-gif">
+  <img src="./assets/img/bands.gif" alt="band">
+</div>
+<div class="copyright">
+  © 2026 Naresh & Mounika
+</div>
+        
+   </body>
+
+</html>
